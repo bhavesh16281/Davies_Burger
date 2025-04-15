@@ -1,0 +1,97 @@
+body{
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+.header{
+    background-color: white;
+    text-align: center;
+}
+.nav-list{
+    list-style: none;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #666666;
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 10px 0px;
+}
+.nav-list img{
+    display: block;
+    margin: 0 auto;
+    width:100px;
+    padding-bottom: 5px;
+}
+.hero{
+    background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+}
+.hero-h1{
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    background-color: #05A8AA;
+    width: 68%;
+    /* padding: 15px 20px; */
+    margin: 0 auto;
+    padding: 20px;
+}
+.main-txt{
+    margin: 0 auto;
+    padding: 20px;
+}
+.main-txt p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+.main-txt a{
+    text-decoration: none;
+    color: #05A8AA;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #05A8AA;
+    width: 250px;
+    padding: 15px 0px;
+    border-radius: 5px;
+}
+.main-txt a:hover{
+    background-color: #05A8AA;
+    color: white;
+}
+ul.nutrition-list{
+    padding: 20px;
+}
+ul.nutrition-list li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #05A8AA;
+    width: 200px;
+    margin-bottom: 3px;
+}
+.nutrition-list .category{
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: block;
+}
+.nutrition-list .value{
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
